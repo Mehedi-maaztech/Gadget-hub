@@ -1,0 +1,167 @@
+[
+  {
+    "product_id": "sp001",
+    "product_title": "Galaxy S21",
+    "product_image": "https://example.com/images/galaxy-s21.jpg",
+    "category": "Smartphones",
+    "price": 799,
+    "description": "Samsung Galaxy S21 with AMOLED display and triple camera.",
+    "specification": ["6.2-inch screen", "128GB storage", "4000mAh battery"],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "sp002",
+    "product_title": "iPhone 14",
+    "product_image": "https://example.com/images/iphone14.jpg",
+    "category": "Smartphones",
+    "price": 899,
+    "description": "Apple iPhone 14 with A15 Bionic chip and dual-camera system.",
+    "specification": ["6.1-inch screen", "256GB storage", "3200mAh battery"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "sp003",
+    "product_title": "OnePlus 11",
+    "product_image": "https://example.com/images/oneplus11.jpg",
+    "category": "Smartphones",
+    "price": 729,
+    "description": "OnePlus 11 with Snapdragon 8 Gen 2 and fast charging.",
+    "specification": ["6.7-inch screen", "128GB storage", "5000mAh battery"],
+    "availability": false,
+    "rating": 4.3
+  },
+  {
+    "product_id": "sp004",
+    "product_title": "Google Pixel 7",
+    "product_image": "https://example.com/images/pixel7.jpg",
+    "category": "Smartphones",
+    "price": 699,
+    "description": "Pixel 7 with Google's Tensor chip and excellent camera.",
+    "specification": ["6.3-inch screen", "128GB storage", "4355mAh battery"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "sp005",
+    "product_title": "Xiaomi 13",
+    "product_image": "https://example.com/images/xiaomi13.jpg",
+    "category": "Smartphones",
+    "price": 599,
+    "description": "Xiaomi 13 with Leica optics and flagship specs.",
+    "specification": ["6.36-inch screen", "256GB storage", "4500mAh battery"],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "sp006",
+    "product_title": "Sony Xperia 5 IV",
+    "product_image": "https://example.com/images/xperia5.jpg",
+    "category": "Smartphones",
+    "price": 999,
+    "description": "Sony Xperia with excellent camera and compact design.",
+    "specification": ["6.1-inch screen", "128GB storage", "5000mAh battery"],
+    "availability": false,
+    "rating": 4.2
+  },
+  {
+    "product_id": "lp001",
+    "product_title": "MacBook Air M2",
+    "product_image": "https://example.com/images/macbook-air.jpg",
+    "category": "Laptops",
+    "price": 1099,
+    "description": "Apple MacBook Air with M2 chip and lightweight design.",
+    "specification": ["13.6-inch", "256GB SSD", "8GB RAM"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "lp002",
+    "product_title": "Dell XPS 13",
+    "product_image": "https://example.com/images/dell-xps.jpg",
+    "category": "Laptops",
+    "price": 999,
+    "description": "Dell XPS 13 with InfinityEdge display and Intel i7 CPU.",
+    "specification": ["13.4-inch", "512GB SSD", "16GB RAM"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "lp003",
+    "product_title": "HP Spectre x360",
+    "product_image": "https://example.com/images/hp-spectre.jpg",
+    "category": "Laptops",
+    "price": 1199,
+    "description": "HP Spectre x360 with touchscreen and 2-in-1 design.",
+    "specification": ["13.5-inch", "512GB SSD", "16GB RAM"],
+    "availability": false,
+    "rating": 4.4
+  },
+  {
+    "product_id": "lp004",
+    "product_title": "Lenovo Yoga 9i",
+    "product_image": "https://example.com/images/yoga9i.jpg",
+    "category": "Laptops",
+    "price": 1050,
+    "description": "Lenovo Yoga 9i with 2-in-1 functionality and stylus.",
+    "specification": ["14-inch", "1TB SSD", "16GB RAM"],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "lp005",
+    "product_title": "Asus ROG Zephyrus G14",
+    "product_image": "https://example.com/images/rog-g14.jpg",
+    "category": "Laptops",
+    "price": 1499,
+    "description": "Gaming laptop with Ryzen 9 CPU and RTX 4060 GPU.",
+    "specification": ["14-inch", "1TB SSD", "32GB RAM"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "sw001",
+    "product_title": "Apple Watch Series 8",
+    "product_image": "https://example.com/images/apple-watch.jpg",
+    "category": "Smartwatches",
+    "price": 399,
+    "description": "Apple Watch with health tracking and ECG app.",
+    "specification": ["Always-On Retina Display", "GPS", "Heart Rate Monitor"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "sw002",
+    "product_title": "Samsung Galaxy Watch 6",
+    "product_image": "https://example.com/images/galaxy-watch.jpg",
+    "category": "Smartwatches",
+    "price": 349,
+    "description": "Samsung Galaxy Watch with advanced fitness tracking.",
+    "specification": ["Super AMOLED", "GPS", "Sleep Monitoring"],
+    "availability": false,
+    "rating": 4.5
+  },
+  {
+    "product_id": "sw003",
+    "product_title": "Garmin Venu 2",
+    "product_image": "https://example.com/images/garmin-venu2.jpg",
+    "category": "Smartwatches",
+    "price": 449,
+    "description": "Garmin smartwatch with GPS and health metrics.",
+    "specification": ["AMOLED", "Battery up to 11 days", "Pulse Ox sensor"],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "sw004",
+    "product_title": "Fitbit Versa 4",
+    "product_image": "https://example.com/images/fitbit-versa4.jpg",
+    "category": "Smartwatches",
+    "price": 299,
+    "description": "Fitbit Versa 4 with fitness tracking and sleep monitoring.",
+    "specification": ["Bluetooth", "Water Resistant", "Up to 6 days battery"],
+    "availability": true,
+    "rating": 4.1
+  }
+]
