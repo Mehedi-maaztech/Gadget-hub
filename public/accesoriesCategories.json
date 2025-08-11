@@ -1,0 +1,18 @@
+{
+  "status": true,
+  "message": "successfully fetched all the categories",
+  "categories": [
+    {
+      "category_id": "2001",
+      "category": "Smartphones"
+    },
+    {
+      "category_id": "2002",
+      "category": "Laptops"
+    },
+    {
+      "category_id": "2003",
+      "category": "Smartwatches"
+    }
+  ]
+}
