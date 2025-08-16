@@ -3,12 +3,13 @@ import './Navbar.css'
 import { CiShoppingCart } from "react-icons/ci";
 import { CiHeart } from "react-icons/ci";
 
-const Navbar = () => {
+const Navbar = ({cart, wishlist}) => {
 
     const links = <>
         <li><NavLink to='/'>Home</NavLink></li>
-        <li><NavLink>Dashboard</NavLink></li>
+        <li><NavLink to="/dashboard">Dashboard</NavLink></li>
     </>
+    //console.log(cart.lenght)
     return (
         <div>
             <div className="navbar bg-purple-800 shadow-sm text-white">
@@ -19,7 +20,7 @@ const Navbar = () => {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                            className="menu menu-sm dropdown-content bg-base-100 text-black hover rounded-box z-1 top-15 mt-3 w-52 p-2 shadow">
                                 {links}
                         </ul>
                     </div>
@@ -31,8 +32,12 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end gap-5">
-                    <span className='bg-base-300 text-black p-2 rounded-full'><CiShoppingCart/></span>
-                    <span className='bg-base-300 text-black p-2 rounded-full'><CiHeart /></span>
+                    <span className='text-white font-bold p-2 relative'>
+                       <span className='absolute top-0 right-1 text-amber-800 bg-base-300 w-[10px] rounded-full text-[10px] text-center'>{cart.length}</span> 
+                    <CiShoppingCart/></span>
+                    <span className='text-white font-bold p-2 relative'>
+                            <span className='absolute top-0 right-1 text-amber-800 bg-base-300 w-[10px] rounded-full text-[10px] text-center'>{wishlist.length}</span> 
+                        <CiHeart /></span>
                 </div>
             </div>
         </div>

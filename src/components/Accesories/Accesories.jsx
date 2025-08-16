@@ -1,15 +1,15 @@
 
 import { useLoaderData } from "react-router";
+import Accesory from "../Accesory/Accesory";
 
 const Accesories = () => {
     const allItems = useLoaderData();
     const categories = [...new Set(allItems.map(item => item.category))];
-    
-    console.log(categories);
+
     return (
         <div>
             <h1 className="text-5xl text-center font-bold">Explore Cutting-Edge Gadgets</h1>
-            <div className="flex">
+            <div className="flex py-10">
                 <div className="categories flex flex-col w-4/12">
                     {
                         categories.map((item, idx) => 
@@ -18,9 +18,9 @@ const Accesories = () => {
                         )
                     }
                 </div>
-                <div className="categories-items w-8/12">
+                <div className="categories-items w-8/12 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
                     {
-                        allItems.length
+                        allItems.map(item => <Accesory key={item.product_id} item={item}></Accesory>)
                     }
                 </div>
             </div>

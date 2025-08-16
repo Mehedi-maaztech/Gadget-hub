@@ -3,7 +3,7 @@ import bannerImg from '../../assets/banner.jpg';
 const Banner = () => {
     return (
         <div>
-            <div className="hero bg-purple-800 min-h-[60vh] text-white">
+            <div className="hero bg-purple-800 min-h-[65vh] text-white">
                 <div className="text-center relative">
                     <div className="flex flex-col items-center">
                         <h1 className="text-5xl font-bold">Upgrade Your Tech Accesorize With gadget Heaven</h1>
@@ -12,7 +12,7 @@ const Banner = () => {
                             quasi. In deleniti eaque aut repudiandae et a id nisi.
                         </p>
                         <button className="btn btn-white">Shop Now</button>
-                        <div className="card glass-card rounded-3xl w-[700px] absolute top-50">
+                        <div className="card glass-card rounded-3xl md:w-[700px] sm:w-[400px] md:absolute sm:static sm:my-10 md:top-50">
                             <figure className='w-11/12 mx-auto py-5'>
                                 <img
                                     src={bannerImg}
