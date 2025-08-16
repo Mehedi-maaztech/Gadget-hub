@@ -1,3 +1,9 @@
 .navbar {
     border-radius : 10px 10px 0 0;
 }
+.logo-btn {
+    background-color: #6e11b0;
+}
+.logo-btn:hover {
+    background-color: #6610a3;
+}

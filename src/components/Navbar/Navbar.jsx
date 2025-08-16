@@ -23,7 +23,7 @@ const Navbar = () => {
                                 {links}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">Gadget Heaven</a>
+                    <a className="btn border-0 shadow-none text-white logo-btn text-xl">Gadget Heaven</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
