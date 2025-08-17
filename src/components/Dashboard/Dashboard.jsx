@@ -18,6 +18,10 @@ const Dashboard = () => {
         setTotalAmount(newTotal);
     }, [cart]);
 
+    useEffect(()=> {
+        document.title = "Awesome Gadgets - Dashboard"
+    },[])
+
     return (
         <div>
             <div>
