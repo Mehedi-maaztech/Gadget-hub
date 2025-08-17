@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router';
+import { NavLink, Link } from 'react-router';
 import './Navbar.css'
 import { CiShoppingCart } from "react-icons/ci";
 import { CiHeart } from "react-icons/ci";
@@ -32,12 +32,16 @@ const Navbar = ({cart, wishlist}) => {
                     </ul>
                 </div>
                 <div className="navbar-end gap-5">
-                    <span className='text-white font-bold p-2 relative'>
-                       <span className='absolute top-0 right-1 text-amber-800 bg-base-300 w-[10px] rounded-full text-[10px] text-center'>{cart.length}</span> 
+                    <Link to="/dashboard" className='relative'>
+                        <span className='text-white font-bold p-2 '>
+                       <span className='absolute top-4 left-2 text-amber-800 bg-base-300 w-[10px] rounded-full text-[10px] text-center'>{cart.length}</span> 
                     <CiShoppingCart/></span>
-                    <span className='text-white font-bold p-2 relative'>
-                            <span className='absolute top-0 right-1 text-amber-800 bg-base-300 w-[10px] rounded-full text-[10px] text-center'>{wishlist.length}</span> 
+                    </Link>
+                    <Link to="/dashboard" className='relative'>
+                        <span className='text-white font-bold p-2'>
+                            <span className='absolute top-4 left-2 text-amber-800 bg-base-300 w-[10px] rounded-full text-[10px] text-center'>{wishlist.length}</span> 
                         <CiHeart /></span>
+                    </Link>
                 </div>
             </div>
         </div>

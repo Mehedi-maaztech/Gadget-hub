@@ -15,7 +15,7 @@ const Accesories = () => {
         <div>
             <h1 className="text-5xl text-center font-bold">Explore Cutting-Edge Gadgets</h1>
             <div className="flex py-10">
-                <div className="categories flex flex-col w-4/12">
+                <div className="categories flex flex-col w-2/12">
                     <button
                         onClick={() => setSelectedCategory(null)}   // reset to all
                         className={`btn btn-base w-40 rounded-full m-2 transition-normal ${selectedCategory === null
@@ -34,7 +34,7 @@ const Accesories = () => {
                         )
                     }
                 </div>
-                <div className="categories-items w-8/12 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+                <div className="categories-items w-10/12 grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
                     {
                         filterdProduct.map(item => <Accesory key={item.product_id} item={item}></Accesory>)
                     }
